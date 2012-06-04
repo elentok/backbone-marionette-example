@@ -1,0 +1,30 @@
+!!!5
+%html
+%head
+  %title App
+  = stylesheet_link_tag    "application", :media => "all"
+  = javascript_include_tag "application"
+  = csrf_meta_tags
+
+%body
+  .navbar
+    .navbar-inner
+      .container
+        %a.brand{href: root_url} App
+
+  .container-fluid
+    .row-fluid
+      .span3
+        .well.nav-container
+          %ul.nav.nav-list
+            %li.nav-header Section1
+            %li
+              %a{href: '#'}
+                %i.icon-plus
+                Add something
+      .span9
+        - unless notice.nil?
+          #notice.alert.alert-info= notice
+        - unless alert.nil?
+          #alert.alert.alert-error= alert
+        = yield
