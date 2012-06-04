@@ -1,0 +1,12 @@
+%h1 Entries
+
+%ul.entries
+
+.actions
+  %a.new-entry.btn.btn-primary
+    %i.icon-plus.icon-white
+    New Entry
+
+  %a.refresh.btn
+    %i.icon-refresh.icon-white
+    Refresh
