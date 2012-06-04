@@ -11,6 +11,11 @@ gem 'haml-rails'
 gem 'bootstrap-sass'
 gem 'compass-rails'
 
+gem 'backbone-on-rails'
+gem 'marionette-rails'
+gem 'haml_coffee_assets'
+gem 'execjs'
+
 gem 'simple_form'
 gem 'draper'
 

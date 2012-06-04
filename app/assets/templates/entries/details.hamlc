@@ -1,0 +1,5 @@
+%h2 #{@name}
+
+%a.btn{href: '#'}
+  %i.icon-arrow-left
+  Back
