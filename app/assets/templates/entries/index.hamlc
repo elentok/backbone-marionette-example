@@ -8,5 +8,5 @@
     New Entry
 
   %a.refresh.btn
-    %i.icon-refresh.icon-white
+    %i.icon-refresh
     Refresh
