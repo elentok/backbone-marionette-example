@@ -18,6 +18,10 @@ gem 'capistrano'
 gem 'rvm-capistrano'
 gem 'capistrano_colors'
 
+gem 'backbone-on-rails'
+gem 'marionette-rails'
+gem 'haml_coffee_assets'
+
 # optional gems:
 #gem 'simple_enum'
 #gem 'modernizr-rails'

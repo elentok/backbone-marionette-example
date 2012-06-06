@@ -1,0 +1,5 @@
+%a.name{href: "#entries/#{@id}"}= @name
+
+.actions
+  %a.destroy.btn-mini.btn.btn-danger
+    %i.icon-trash.icon-white

@@ -13,18 +13,18 @@
         %a.brand{href: root_url} App
 
   .container-fluid
-    .row-fluid
-      .span3
-        .well.nav-container
-          %ul.nav.nav-list
-            %li.nav-header Section1
-            %li
-              %a{href: '#'}
-                %i.icon-plus
-                Add something
-      .span9
-        - unless notice.nil?
-          #notice.alert.alert-info= notice
-        - unless alert.nil?
-          #alert.alert.alert-error= alert
-        = yield
+    -#.row-fluid
+      -#.span3
+        -#.well.nav-container
+          -#%ul.nav.nav-list
+            -#%li.nav-header Section1
+            -#%li
+              -#%a{href: '#'}
+                -#%i.icon-plus
+                -#Add something
+      -#.span9
+    - unless notice.nil?
+      #notice.alert.alert-info= notice
+    - unless alert.nil?
+      #alert.alert.alert-error= alert
+    = yield

@@ -12,4 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
+//
+//= require hamlcoffee
+//= require underscore
+//= require backbone
+//= require backbone.marionette
+//= require_tree ../templates/
+//
+//= require ./myapp
+//= require ./models
+//= require ./views
+//= require ./controllers
+//
 //= require_tree .

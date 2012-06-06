@@ -1,0 +1,14 @@
+%h1
+  Listing 
+  %span.items_count #{@items.length}
+  entries
+
+%ul.entries
+
+.buttons
+  %a.btn.btn-success.new-entry{href: '#'}
+    %i.icon-plus.icon-white
+    Add Entry
+  %a.btn.refresh{href: '#'}
+    %i.icon-refresh
+    Refresh
